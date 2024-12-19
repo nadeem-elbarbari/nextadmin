@@ -1,8 +1,42 @@
 .container {
-  background-color: #000;
+  /*background-color: #000;*/
   position: sticky;
   top: 40px;
 }
 
 .category {
+  display: flex;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.userImage {
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+.userDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.userName {
+  font-weight: 600;
+}
+
+.userTitle {
+  font-size: 13px;
+  color: var(--textSoft);
+}
+
+.category {
+  color: var(--textSoft);
+  font-weight: bold;
+  font-size: 13px;
+  margin: 10px 0;
 }
